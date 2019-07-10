@@ -1,0 +1,27 @@
+package pageObjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class LandingPage {
+
+	
+	public WebDriver driver;
+	
+	By shopmen=By.cssSelector("#chrome-app-container > section > div > div > article.genericSplash__copy > div.genericSplash__ctas > div:nth-child(2) > a > span");
+	
+	public LandingPage(WebDriver driver) {
+		this.driver=driver;
+	}
+
+
+	public WebElement getMenPage()
+	{
+		return driver.findElement(shopmen);
+	}
+	
+	
+	
+	
+}

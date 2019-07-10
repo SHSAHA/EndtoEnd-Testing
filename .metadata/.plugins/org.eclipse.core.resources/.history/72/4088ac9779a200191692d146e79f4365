@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+      <listener class-name="Project.Listeners"/>
+      <listener class-name="Resources.ExtentReporterNG"/>
+</listeners>
+  <test thread-count="5" name="Checking out with 2 products">
+    <classes>
+      <class name="Project.HomePage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

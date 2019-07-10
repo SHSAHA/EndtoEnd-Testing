@@ -1,0 +1,57 @@
+package pageObjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class CheckOutPage {
+public WebDriver driver;
+	
+    By country=By.cssSelector("option[value='EE']");
+    By email=By.cssSelector("input[id='emailAddress'][type='email']");
+    By addemail=By.cssSelector("button[class='btn primary submit'][type='submit']");
+    By firstname=By.cssSelector("input[id='firstName'][type='text']");
+    By lastname=By.cssSelector("input[id='lastName'][type='text']");
+    By mobile=By.cssSelector("input[id='contactNumber'][type='tel']");
+	
+	public CheckOutPage(WebDriver driver) {
+		this.driver=driver;
+	}
+
+
+	public WebElement selectCountry()
+	{
+		return driver.findElement(country);
+	}
+	
+	public WebElement enterEmail()
+	{
+		return driver.findElement(email);
+	}
+	
+	public WebElement addEmail()
+	{
+		return driver.findElement(addemail);
+	}
+	
+	public WebElement enterFirstName()
+	{
+		return driver.findElement(firstname);
+	}
+	
+	public WebElement enterLastName()
+	{
+		return driver.findElement(lastname);
+	}
+	
+	public WebElement enterMobile()
+	{
+		return driver.findElement(mobile);
+	}
+	
+	
+
+	
+	
+	
+}

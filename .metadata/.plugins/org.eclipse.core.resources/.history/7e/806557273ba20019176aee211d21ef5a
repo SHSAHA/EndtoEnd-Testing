@@ -1,0 +1,23 @@
+package pageObjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class MyBagPage {
+public WebDriver driver;
+	
+	 
+	    By getcheckout=By.cssSelector("#bagApp > div > div > div.bag-secondary-content-wrapper > div > bag-total > div > div > span.bag-title-quicklink.bag-title-quicklink--checkout > p > a");
+		
+		public MyBagPage(WebDriver driver) {
+			this.driver=driver;
+		}
+	
+
+		public WebElement getMyBagPage()
+		{
+			return driver.findElement(getcheckout);
+		}	
+
+}

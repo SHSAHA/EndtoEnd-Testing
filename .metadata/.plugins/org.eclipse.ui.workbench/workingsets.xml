@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1562594142514_1" label="EndtoEndTesting" name="EndtoEndTesting">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/EndtoEndTesting" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1562594038287_0" label="Window Working Set" name="Aggregate for window 1562594038286"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1562660652345_2" label="Window Working Set" name="Aggregate for window 1562660652345"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1562678374019_3" label="Window Working Set" name="Aggregate for window 1562678374019"/>
+</workingSetManager>

@@ -1,0 +1,26 @@
+package pageObjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class CheckOutPage {
+public WebDriver driver;
+	
+    By country=By.cssSelector("select[value*="EE"]");
+	
+	public CheckOutPage(WebDriver driver) {
+		this.driver=driver;
+	}
+
+
+	public WebElement selectCountry()
+	{
+		return driver.findElement(country);
+	}	
+	
+
+	
+	
+	
+}

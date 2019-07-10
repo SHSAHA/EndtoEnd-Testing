@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Project.Listeners"/>
+    <listener class-name="Resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Selenium Test(failed)">
+    <classes>
+      <class name="Project.HomePage">
+        <methods>
+          <include name="initialize"/>
+          <include name="basePageNavigation" invocation-numbers="0"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Project.HomePage -->
+    </classes>
+  </test> <!-- Selenium Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

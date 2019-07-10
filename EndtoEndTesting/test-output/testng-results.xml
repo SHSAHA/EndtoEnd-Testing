@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="51350" started-at="2019-07-09T20:06:17Z" finished-at="2019-07-09T20:07:08Z">
+    <groups>
+    </groups>
+    <test name="Checking out with 2 products" duration-ms="51350" started-at="2019-07-09T20:06:17Z" finished-at="2019-07-09T20:07:08Z">
+      <class name="Project.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Project.HomePage@565f390]" name="initialize" is-config="true" duration-ms="5630" started-at="2019-07-09T20:06:17Z" finished-at="2019-07-09T20:06:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Project.HomePage@565f390]" name="basePageNavigation" duration-ms="43261" started-at="2019-07-09T20:06:23Z" data-provider="getData" finished-at="2019-07-09T20:07:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shaswatasaha@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shaswata]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Saha]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[56771759]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Siidisaba]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Tallinn]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Harju maakond]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[11311]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Project.HomePage@565f390]" name="teardown" is-config="true" duration-ms="2405" started-at="2019-07-09T20:07:06Z" finished-at="2019-07-09T20:07:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Project.HomePage -->
+    </test> <!-- Checking out with 2 products -->
+  </suite> <!-- Suite -->
+</testng-results>

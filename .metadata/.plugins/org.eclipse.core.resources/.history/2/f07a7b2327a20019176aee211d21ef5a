@@ -1,0 +1,36 @@
+package pageObjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class TrendPage {
+	
+   public WebDriver driver;
+	
+    By shopsunglasses=By.xpath("#product-11710932 > a > div._2Raol8i > div > div > p");
+    By shopsnapback=By.xpath("//p[contains(text(),'ASOS DESIGN faux leather snapback with badge detail')]");
+    
+	public TrendPage(WebDriver driver) {
+		this.driver=driver;
+	}
+
+
+	public WebElement getTrendPage()
+	{
+		return driver.findElement(shopsunglasses);
+		
+	}
+	
+	public WebElement getTrendPage1()
+	{
+		return driver.findElement(shopsnapback);
+	}
+	
+	
+	
+	
+}
+
+
+

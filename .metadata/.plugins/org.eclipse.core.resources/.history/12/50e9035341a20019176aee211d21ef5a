@@ -1,0 +1,24 @@
+package pageObjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class SignupPage {
+	public WebDriver driver;
+	
+	 
+    By getnewtoasos=By.xpath("//a[contains(text(),'New to ASOS?')]");
+	
+	public SignupPage(WebDriver driver) {
+		this.driver=driver;
+	}
+
+
+	public WebElement getNewToAsos()
+	{
+		return driver.findElement(getnewtoasos);
+	}	
+
+
+}

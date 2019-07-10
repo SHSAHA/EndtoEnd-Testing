@@ -1,0 +1,23 @@
+package pageObjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class MyBagPage {
+public WebDriver driver;
+	
+	 
+	    By getcheckout=By.xpath("//*[@id=\"chrome-sticky-header\"]/div[1]/div/ul[2]/li[4]/a/span[2]");
+		
+		public MyBagPage(WebDriver driver) {
+			this.driver=driver;
+		}
+	
+
+		public WebElement getMyBagPage()
+		{
+			return driver.findElement(getcheckout);
+		}	
+
+}
